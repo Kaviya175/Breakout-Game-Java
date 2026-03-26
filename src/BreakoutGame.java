@@ -37,7 +37,7 @@ public class BreakoutGame extends JPanel implements ActionListener, KeyListener 
 
     private void playMusic() {
         try {
-            File file = new File("background.wav"); // keep file in project folder
+            File file = new File("background.wav"); 
             if (file.exists()) {
                 AudioInputStream audio = AudioSystem.getAudioInputStream(file);
                 clip = AudioSystem.getClip();
